@@ -5,36 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&amp;display=swap" rel="stylesheet">
     <title>Bethany's pie shop</title>
 </head>
 <body>
-  <header class="logo">
-    <img class="img_logo" src="./images/logo.svg" alt="logo">
-   <div class="bethany_logo">
-    <h1 class="main_h1">Bethany's</h1>
-    <p>Fantastic pie shop </p>
-   </div>
-  </header>
 
-<div class="nav_link">  
-  <a href="#">Specials</a>
-  <a href="#">Cheese cakes</a>
-  <a href="#">Fruit pie</a>
-  <a href="#">Swag shop</a>
+  <header>
+<div class="bethanys_header">
+    <img class="img_logo" src="./images/logo.svg" alt="logo">
+  <div class="bethany_logo">
+    <h1 class="main_h1">Bethany's </h1>
+    <p class="main_p">Fantastic pie shop </p>
+  </div>
 </div>
 
+   <nav class="mobile_nav_link">
+     <div id="menu_icon_container">
+   <img class="menu_icon"  src="./images/white_menu-removebg-preview.png" alt="menu icon">
+     </div>
+     <div class="desktop_nav_link">  
+       <a href="#" class="active" >Specials</a>
+       <a href="./cakes.html">Cheese cakes</a>
+       <a href="./fruit.html">Fruit pie</a>
+       <a href="#">Swag shop</a>
+     </div>
+   </nav>
+  </header>
+
+<main class="bethany_specials">
+  <div>
 <img class="main_img" src="./images/hero.jpg" alt="bethany's waitress" />
+</div>
 
 <h2 class="main_h2">This Week's Specials</h2>
 
 <section class="other_img">
-<h6>Apple pie</h6>
-<img src="./images/pie-apple.jpg" alt="apple pie" />
-<p>SALE: $5.99</p>
+    <div class="apple_price">
+<h6 class="apple_pie">Apple pie</h6>
+<img class="apple_img" src="./images/pie-apple.jpg" alt="apple pie" />
+<p class="pie_sale">SALE: $5.99</p>
+   </div>
 
-<h6>Cheese cake</h6>
-<img src="./images/cake-plain.jpg" alt="cheese cake" />
-<p>SALE: $6.99</p>
+  <div class="cheese_price">
+<h6 class="cheese_cake">Cheese cake</h6>
+<img class="cheese_img" src="./images/cake-plain.jpg" alt="cheese cake" />
+<p class="cake_sale">SALE: $6.99</p>
+  </div>
 </section>
+</main>
+
+<footer id="copyright_info">
+  <div class="location_info">
+<h2 class="footer_header">LOCATION</h2>
+<ul class="footer_list">
+   <li>Bethany's Pie Shop</li>
+   <li>123 Bakery Street</li>
+   <li>Brussels, Belgium</li>
+</ul>
+</div>
+
+<div class="company_info">
+<h2 class="footer_header">COMPANY</h2>
+<ul class="footer_list">
+   <li>Catering</li>
+   <li>Delivery</li>
+   <li>Swag Shop</li>
+  <li>Support</li>
+</ul>
+</div>
+
+<div class="social_info">
+<h2 class="footer_header">SOCIAL</h2>
+<ul class="footer_list">
+   <li>Facebook</li>
+   <li>Twitter</li>
+   <li>Instagram</li>
+</ul>
+</div>
+
+<div class="about_us_info">
+<h2 class="footer_header">ABOUT US</h2>
+ <ul> 
+  <img class="logo_img" src="./images/logo2.png" alt="Bethany's pie shop logo" > 
+  <p class="copy"> &copy; 2020 • all rights reserved.</p>
+</div>
+</ul>
+</footer>
 </body>
 </html>
